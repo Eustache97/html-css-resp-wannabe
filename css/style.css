@@ -129,9 +129,9 @@ img {
  ************************************************/
 @media screen and (max-width: 768px) {
     .container{
-        width: 100%;
+    width: 100%;
     }
-}
+}    
 @media screen and (max-width: 480px) {
     .row{
         flex-direction: column;
@@ -150,5 +150,11 @@ img {
     }
     h2{
         margin-bottom: 1.5rem;
+    }
+}
+@media screen and (min-width: 769px) {
+    .container{
+    width: 80%;
+    max-width: 1750px;
     }
 }
